@@ -24,8 +24,10 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
@@ -74,7 +76,7 @@ fun HelpTopAppBar(modifier: Modifier = Modifier){
             modifier = modifier
                 .size(64.dp)
                 .padding(8.dp),
-            painter = painterResource(R.drawable.ic_selfhelp_logo),
+            painter = painterResource(R.drawable.images),
             contentDescription = null
         )
         Text(
@@ -95,7 +97,8 @@ fun HelpItem(help: HelpData, modifier: Modifier = Modifier) {
         modifier = modifier
             .padding(8.dp)
             .clickable {
-                expanded = !expanded }
+                expanded = !expanded
+            }
     ) {
         Column(
             modifier = Modifier
@@ -136,7 +139,8 @@ fun HelpIcon(@DrawableRes helpIcon: Int, modifier: Modifier = Modifier) {
         modifier = modifier
             .size(64.dp)
             .padding(8.dp)
-            .clip(RoundedCornerShape(50)),
+            .clip(RoundedCornerShape(50))
+            .background(color = colorResource(id = R.color.bg_col)),
         contentScale = ContentScale.Crop,
         painter = painterResource(helpIcon),
         contentDescription = null
