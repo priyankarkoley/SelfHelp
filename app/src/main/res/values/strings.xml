@@ -1,3 +1,30 @@
 <resources>
     <string name="app_name">Self Help</string>
+
+    <string name="help_name_1">Police</string>
+    <string name="help_name_2">Fire</string>
+    <string name="help_name_3">Ambulance</string>
+    <string name="help_name_4">LPG Leakage</string>
+    <string name="help_name_5">Women Helpline</string>
+    <string name="help_name_6">Anti Poison</string>
+    <string name="help_name_7">Traffic Help</string>
+    <string name="help_name_8">Crime Stopper</string>
+    <string name="help_name_9">Tourist Helpline</string>
+    <string name="help_name_10">Disasters</string>
+
+    <string name="help_number_1">100</string>
+    <string name="help_number_2">101</string>
+    <string name="help_number_3">102</string>
+    <string name="help_number_4">1906</string>
+    <string name="help_number_5">1091</string>
+    <string name="help_number_6">1066</string>
+    <string name="help_number_7">1073</string>
+    <string name="help_number_8">1090</string>
+    <string name="help_number_9">1363</string>
+    <string name="help_number_10">108</string>
+
+    <string name="num">Number</string>
+    <string name="call_button_description">Call Directly Button</string>
+
+    phone_feature
 </resources>
