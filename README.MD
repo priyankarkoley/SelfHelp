@@ -1,2 +1,2 @@
 # SelfHelp
-An android app to help you directly call and get emergency help services.
+Your android app to help you directly call and get emergency help services.
