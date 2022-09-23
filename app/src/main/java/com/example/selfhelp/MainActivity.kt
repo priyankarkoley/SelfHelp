@@ -20,6 +20,9 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.*
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Favorite
+import androidx.compose.material.icons.filled.MoreVert
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -30,6 +33,7 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.selfhelp.data.HelpData
@@ -66,6 +70,8 @@ fun HelpApp() {
 //TOP BAR
 @Composable
 fun HelpTopAppBar(modifier: Modifier = Modifier){
+    var isExpanded by remember { mutableStateOf(false)}
+    var con = LocalContext.current
     Row(
         modifier = modifier
             .fillMaxWidth()
@@ -83,6 +89,74 @@ fun HelpTopAppBar(modifier: Modifier = Modifier){
             text = stringResource(R.string.app_name),
             style = MaterialTheme.typography.h1
         )
+
+        Spacer(modifier=Modifier.weight(1f))
+        IconButton(onClick = { Toast.makeText(con, "Thanks for the Like", Toast.LENGTH_SHORT).show() }) {
+            Icon(Icons.Default.Favorite,"")
+        }
+        IconButton(onClick = { isExpanded=!isExpanded }) {
+            Icon(Icons.Default.MoreVert,"")
+        }
+        Box (modifier = Modifier
+            .padding(top = 64.dp, end = 8.dp))
+        {
+            Box {
+                DropdownMenu(
+                    expanded = (isExpanded),
+                    modifier = Modifier
+
+                        .wrapContentSize(Alignment.TopStart),
+                    onDismissRequest = { isExpanded = false }) {
+                    DropdownMenuItem(onClick = {
+                        Toast.makeText(
+                            con,
+                            "Hello from Binary Brains",
+                            Toast.LENGTH_SHORT
+                        ).show()
+                    }) {
+                        Text(text = "Developed By",
+                            fontWeight = FontWeight.Bold,
+                            style = MaterialTheme.typography.h3)
+                    }
+                    DropdownMenuItem(onClick = {
+                        Toast.makeText(
+                            con,
+                            "Hiii from Priyankar",
+                            Toast.LENGTH_SHORT
+                        ).show()
+                    }) {
+                        Text(text = "Priyankar Koley")
+                    }
+                    DropdownMenuItem(onClick = {
+                        Toast.makeText(
+                            con,
+                            "Hey from Santanu",
+                            Toast.LENGTH_SHORT
+                        ).show()
+                    }) {
+                        Text(text = "Santanu Pal")
+                    }
+                    DropdownMenuItem(onClick = {
+                        Toast.makeText(
+                            con,
+                            "Hola from Pranti",
+                            Toast.LENGTH_SHORT
+                        ).show()
+                    }) {
+                        Text(text = "Pranti Rani Banda")
+                    }
+                    DropdownMenuItem(onClick = {
+                        Toast.makeText(
+                            con,
+                            "Heyy from Debosmita",
+                            Toast.LENGTH_SHORT
+                        ).show()
+                    }) {
+                        Text(text = "Debosmita Bedajna")
+                    }
+                }
+            }
+        }
     }
 }
 
