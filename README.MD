@@ -91,7 +91,9 @@ In the 2nd part, we want our app to be Crowd-Source. As the user can also add in
 #### Image Preview
 
 ![ScreenShot 1 of the app](Screenshot-1.jpg)
+
 <br>
+
 ![ScreenShot 2 of the app](Screenshot-2.jpg)
 
 ## Thanks For Your Visit
