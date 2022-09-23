@@ -92,9 +92,9 @@ In the 2nd part, we want our app to be Crowd-Source. As the user can also add in
 
 <p float="left">
 <!-- ![ScreenShot 1 of the app](Screenshot-1.jpg) -->
-<img src="Screenshot-1.jpg" alt="ScreenShot 1 of the app" width="200"/>
+<img src="Screenshot-1.jpg" alt="ScreenShot 1 of the app" width="275"/>
 <!-- ![ScreenShot 2 of the app](Screenshot-2.jpg) -->
-<img src="Screenshot-2.jpg" alt="ScreenShot 2 of the app" width="200"/>
+<img src="Screenshot-2.jpg" alt="ScreenShot 2 of the app" width="275"/>
 </p>
 
 ## Thanks For Your Visit
