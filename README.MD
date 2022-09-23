@@ -90,9 +90,9 @@ In the 2nd part, we want our app to be Crowd-Source. As the user can also add in
 
 #### Image Preview
 
-![ScreenShot 1 of the app](screenshot-1.jpg)
+![ScreenShot 1 of the app](Screenshot-1.jpg)
 <br>
-![ScreenShot 2 of the app](screenshot-2.jpg)
+![ScreenShot 2 of the app](Screenshot-2.jpg)
 
 ## Thanks For Your Visit
 Thanks for your valuable time. Also thanks [GDSC-TMSL](https://github.com/GDSC-TMSL) for such an opportunity to learn Android using Jetpack Compose.
