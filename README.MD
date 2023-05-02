@@ -85,7 +85,7 @@ In the 2nd part, we want our app to be Crowd-Source. As the user can also add in
 * [Contact via Mail](mailto:palsantanu003@gmail.com)
 
 #### 3. Pranti Rani Banda
-* [Github](https://github.com/Pranti23)
+* [Github](https://github.com/prantiranibanda)
 * [Google Dev Profile](http://g.dev/prantiranibanda)
 * [Contact via Mail](mailto:prantibanda@gmail.com)
 
