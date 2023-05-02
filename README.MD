@@ -1,6 +1,15 @@
 # "Self Help"
 Your android app to help you directly call and get emergency help services.
 
+#### Image Preview
+
+<p float="left">
+<!-- ![ScreenShot 1 of the app](Screenshot-1.jpg) -->
+<img src="Screenshot-1.jpg" alt="ScreenShot 1 of the app" width="275"/>
+<!-- ![ScreenShot 2 of the app](Screenshot-2.jpg) -->
+<img src="Screenshot-2.jpg" alt="ScreenShot 2 of the app" width="275"/>
+</p>
+
 ## Table of Contents
 
 - [Self Help](#Self-Help)
@@ -88,14 +97,7 @@ In the 2nd part, we want our app to be Crowd-Source. As the user can also add in
 ### Presentations
 [PPT Presentation](selfhelp.pptx)
 
-#### Image Preview
 
-<p float="left">
-<!-- ![ScreenShot 1 of the app](Screenshot-1.jpg) -->
-<img src="Screenshot-1.jpg" alt="ScreenShot 1 of the app" width="275"/>
-<!-- ![ScreenShot 2 of the app](Screenshot-2.jpg) -->
-<img src="Screenshot-2.jpg" alt="ScreenShot 2 of the app" width="275"/>
-</p>
 
 ## Thanks For Your Visit
 Thanks for your valuable time. Also thanks [GDSC-TMSL](https://github.com/GDSC-TMSL) for such an opportunity to learn Android using Jetpack Compose.
